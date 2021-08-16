@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+:root{
+    --primary:#FDE047;
+    --dark:#0F172A;
+}
+
+body{
+    font-family: 'Amatic SC', cursive;
+}
+
+.navbar{
+    width: 100%;
+    padding-top: 1rem;
+    margin: auto;
+    padding: auto;
+    height: 80px;
+    text-align: center;
+    background-color:green;
+    font-size: 2rem;
+    font-weight: bolder;
+    /* box-shadow: greenyellow; */
+    /* font-family: 'Righteous', cursive; */
+}
+
+.foot{
+  width: 100%;
+  /* height: 60px; */
+  background-color: green;
+  text-align: center;
+
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    font-size: large;
+    /* background-color: var(--primary); */
+    /* text-align: center; */
+}
+
+.container-center{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: auto;
+    margin: auto;
+    /* text-align: center; */
+    display: block;
+    max-width: 700px;
+}
+
+#btn-translate{
+    background-color: green;
+    /* border-radius: 0.5rem; */
+    padding: 0.8rem;
+    font-size: large;
+    font-weight: bold;
+    /* box-shadow: yellowgreen; */
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+}
+
+.output{
+    padding-bottom: 0.5rem;
+}
+
+#text-input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 5vh;
+    margin-top: 2rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: large;
+    border-color: var(--dark);
+    border-radius: 0.2rem;
+    border: 2px dark;
+    /* font-size: large;
+    font-family: inherit; */
+}
+
+#text-output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 2px solid ;
+    border-color: var(--dark);
+    border-radius: 0.2rem;
+    font-size: large;
+}

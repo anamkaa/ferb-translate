@@ -21,8 +21,10 @@ function clickHandler() {
             var translatedText = json.contents.translated;
             textOutput.innerText = translatedText;
         })
+        
         .catch(errorHandler)
     // console.log("clicked");
 }
 
 btnTranslate.addEventListener("click", clickHandler);
+
