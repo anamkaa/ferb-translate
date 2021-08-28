@@ -89,6 +89,7 @@ body{
     border: 2px solid ;
     border-color: var(--dark);
     border-bottom: none;
+    
 }
 #text-input{
     box-sizing: border-box;
@@ -99,7 +100,6 @@ body{
     font-family: 'Amatic SC', cursive;
     font-size: large;
     border-color: var(--dark);
-    border-radius: 0.2rem;
     border: 2px solid;
 }
 
